@@ -15,7 +15,7 @@ launch the app and you should see a screen like below.
 **2. Setting and Installing Git**
 
 Visual Studios Code is a great tool for numerous tasks. For our task you will also need another tool named git (more specifically git-bash). Similar to VScode, use 
-this link ([Git](https://gitforwindows.org/) to download git. Follow the instructions and install git to your computer. Once installed, you will need to configure you VScode inorder to use it.
+this link ([Git](https://gitforwindows.org/)) to download git. Follow the instructions and install git to your computer. Once installed, you will need to configure you VScode inorder to use it.
 In VScode open the terminal by using the menu prompts or pressing (Ctrl +  \`). Then press (Ctrl + Shift + p) and type Select Defult 
 Profile. Click on Git Bash. Now in the terminal click the + symbol drop down menu and select bash.
 
@@ -43,6 +43,8 @@ You are now connected to your account remotely. By writing a few simple commands
 directory. Some other commands include (cd, pwd, cat, cp)
 
 ![image](https://user-images.githubusercontent.com/130005669/230739296-f8fb6eb7-21a4-456a-b91b-c68e62176118.png)
+
+Now you know how to remotely connect to your account whenever you need to. 
 
 
 
