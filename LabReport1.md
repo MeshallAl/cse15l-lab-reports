@@ -31,7 +31,7 @@ until it asks for your username. Paste your ID and then continue to follow the i
 **4. Connecting Remotely**
 
 Now we have all we need to connect. Open up VScode and open the terminal. Make sure it set at bash. Then in the terminal write ssh followed by your account ID. 
-like so (ssh *username/ID*@ieng6.ucsd.edu). You will then be prompted to enter your password. (**Note:** you will not be able to see what you input. It will appear
+like so (`ssh *username/ID*@ieng6.ucsd.edu`). You will then be prompted to enter your password. (**Note:** you will not be able to see what you input. It will appear
 as nothing has been written, but you are writing).
 
 ![Screenshot 2023-04-08 121801](https://user-images.githubusercontent.com/130005669/230739065-a21242d9-a8cc-4fac-9dae-7e36939699d8.jpg)
@@ -40,10 +40,15 @@ as nothing has been written, but you are writing).
 **5. Trying Out Some Commands**
 
 You are now connected to your account remotely. By writing a few simple commands you can access all that you need. You can use command "ls" to list what is in the 
-directory. Some other commands include (cd, pwd, cat, cp)
+directory. Some other commands include (`cd`, `pwd`, `cat`, `cp`)
 
 ![image](https://user-images.githubusercontent.com/130005669/230739296-f8fb6eb7-21a4-456a-b91b-c68e62176118.png)
 
+From the image above we see that  
+- `pwd` command displays your current directory. 
+- `ls` command lists out the contents of your current directory
+- `cp` command copies a file from the given path
+- `cat` command prints out the content of the file from the given path
 Now you know how to remotely connect to your account whenever you need to. 
 
 
