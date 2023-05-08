@@ -34,7 +34,7 @@ stringSearch-data:322$ find ./technical/government/Env_Prot_Agen/* -iname "*.TXT
 ```
 Very similar to the previous example, this command returns all the files with the given string. In this case I used an example that would usually never work to further demonstrate the case-insensitive nature of the command. The string ".TXT" does not exsit, yet the command gave us all the other case alternatives of it. If we were to run this with  `-name`, the command would return nothing all the time. 
 
-Source: (https://www.computerhope.com/unix/ufind.htm)
+Source: ([https://www.computerhope.com/unix/ufind.htm](https://www.computerhope.com/unix/ufind.htm))
  
 ### The `-path` Option:
 This command option can be added to the `find` command to find all the files within the given path. Instead of searching for a for a specific file by name, you can use this command option to search for files with a specific path. This is helpful for deep directories or common names of directories within other directories.
@@ -82,7 +82,7 @@ stringsearch-data:377$ find -path "*/technical/*/About_LSC/*"
 ```
 Similar to the previous example, I used the `-path` option to specify a certain path condition for `find`. In the example, I mentioned two directories with `*` inbetween. By doing this I could search for files in which I want to be incorportated in this unrestriced path. The files could be in two different folders, but as long as they share these path requirements they will be returned.
 
-Source: (https://www.computerhope.com/unix/ufind.htm)
+Source: ([https://www.computerhope.com/unix/ufind.htm](https://www.computerhope.com/unix/ufind.htm))
 
 ### The  `-type` Option:
 This command option can limit the find command to find files with a specific type. In our current directory, there are not many different special file types. However, this command option can still be used and is very useful. 
@@ -114,7 +114,7 @@ technical/government/Alcohol_Problems/Session4-PDF.txt
 ```
 In this example, I used the command option `-type` with the character `f` to return all the regular files within `technical/government/Alcohol_Problems/`. As a result, all the files in that directory were printed. If this directory had other files of different types they would not have been shown allowing you to efficient find specific files.
 
-Source: (https://www.computerhope.com/unix/ufind.htm)
+Source: ([https://www.computerhope.com/unix/ufind.htm](https://www.computerhope.com/unix/ufind.htm))
 
 ### The `-size` Option
 This command option allows you to restrict the find command to have a certain criteria regarding the size of the files you want. Using this command you can specify if you would like files larger or smaller than a certain size allowing for more personalization in using the find command. Additionally it can be used to differeniate between empty or complete files with similar names and paths. It can also be used for storage analysis and management.
@@ -144,5 +144,5 @@ technical/plos/pmed.0020226.txt
  ```
  Unlike the previous example, I used the same option but with `-2k`. This made the `find` command find all the files in `technical` with less than 2 Kilobytes. Similarly, since this is quite a small size, the command only outputed a few files since all the other files were too large. This allows us to only see the files with the given size requirement.  
  
- Source: (https://www.computerhope.com/unix/ufind.htm)
- 
+Source: ([https://www.computerhope.com/unix/ufind.htm](https://www.computerhope.com/unix/ufind.htm))
+
