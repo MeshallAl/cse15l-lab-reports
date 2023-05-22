@@ -54,7 +54,7 @@ Simlar to a previous step, I iterate through my recent terminal commands to find
 **Keys Pressed:**
 `git add L` `<tab>` `.` `<tab>`
 `<enter>`
-`git commit L` `<tab>` ` -m "fixed"`
+`git commit L` `<tab>` `-m "fixed"`
 `<enter>`
 `git push origin main`
 
