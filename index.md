@@ -10,3 +10,4 @@ Lab Report 3: [Here](https://meshallal.github.io/cse15l-lab-reports/LabReport3.h
 
 Lab Report 4: [Here](https://meshallal.github.io/cse15l-lab-reports/LabReport4.html)
 
+Lab Report 5: [Here](https://meshallal.github.io/cse15l-lab-reports/LabReport5.html)
